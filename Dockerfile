@@ -5,6 +5,7 @@ WORKDIR /app
 #EXPOSE 80
 #EXPOSE 443
 EXPOSE 5001
+EXPOSE 5443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
